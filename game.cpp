@@ -256,7 +256,7 @@ void StageController::tick() {
 
 
 
-// 미션 상태 업데이트 
+// 미션 상태 업데이트 버전
 void StageController::checkMissions() {
     missionLenDone = (serpent.getSegments().size() >= static_cast<size_t>(missionLen));
     missionGrowDone = (growScore >= missionGrow);

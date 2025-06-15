@@ -10,7 +10,7 @@
 
 using namespace std;
 
-// Windmill 구조체 - 회전 오브젝트 표현
+// Windmill 구조체 - 회전 오브젝트를 표현함
 struct Windmill {
     pair<int, int> center;
     int length;

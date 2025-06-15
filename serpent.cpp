@@ -2,7 +2,7 @@
 #include <ncurses.h>
 #include <iostream>
 
-// 생성자 - 초기 위치에 몸통 구성
+// 생성자 - 초기 위치에 몸통 구성을 함
 Serpent::Serpent(int startX, int startY)
     : currentDir(RIGHT), pendingGrowth(false),
       prevMoveTime(chrono::steady_clock::now()),

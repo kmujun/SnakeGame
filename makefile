@@ -2,7 +2,7 @@
 CXX = g++
 CXXFLAGS = -Wall -Wextra -std=c++11
 
-# ncurses 라이브러리 설정
+# ncurses 라이브러리를 설정함 
 LDFLAGS = -lncurses
 
 # 타겟 실행 파일 이름

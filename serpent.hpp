@@ -7,7 +7,7 @@
 
 using namespace std;
 
-// 방향 열거형 - 뱀의 이동 방향
+// 방향 열거형 - 뱀의 이동 방향을 설정함
 enum Direction { UP, DOWN, LEFT, RIGHT };
 
 // Serpent 클래스 - 게임 내 뱀을 나타냄
