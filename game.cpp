@@ -272,10 +272,14 @@ void StageController::proceedNextStage() {
     if (stageLevel > 4) {
         terminateGame();
     } else {
-        resetStage();
-        serpent.defineInterval(serpent.retrieveInterval() * 0.5f);
+        // 🎯 오직 성장 아이템 미션만 +1
+        missionGrow += 1;
+
+        resetStage();  // 스테이지 재설정
+        serpent.defineInterval(serpent.retrieveInterval() * 0.5f);  // 뱀 속도 증가
     }
 }
+
 
 
 // 초기 맵 설정 
